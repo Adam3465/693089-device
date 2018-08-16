@@ -9,8 +9,7 @@
 		<a class="main-header-logo">
 			DEVICE
 		</a>
-		<nav class="main-navigation">
-			<ul>
+			<ul class="user-bar">
 				<li>
 					<form>
   						<input type="search" placeholder="Поиск по сайту" name="search">
@@ -27,47 +26,45 @@
 					<a class="shopping-cart">Корзина</a>
 				</li>
 			</ul>
-			<ul>
-				<li> <a class="catalog">Каталог товаров</a>
-					<ul>
-						<li> 
-							<a href="#" class="virtual-reality">Виртуальная реальность</a>
-						</li>
-						<li>
-							<a href="#" class="monopods-for-selfie">Моноподы для селфи</a>
-						</li>
-						<li>
-							<a href="#" class="action-cams">Экшн-камеры</a>
-						</li>
-						<li>
-							<a href="#" class="fitness-bracelets">Фитнес-браслеты</a>
-						</li>
-						<li>
-							<a href="#" class="smart-watchs">Умные часы</a>
-						</li>
-						<li>
-							<a href="#" class="quadrupters">Квадрокоптеры</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#" class="delivery">Доставка</a>
-				</li>
-				<li>
-					<a href="#" class="guarantee">Гарантия</a>
-				</li>
-				<li>
-					<a href="#" class="pay">Оплата</a>
-				</li>
-			</ul>
+			<nav class="main-navigation">
+				<ul class="m-n">
+					<li> <a class="catalog">Каталог товаров</a>
+						<ul>
+							<li> 
+								<a href="#" class="virtual-reality">Виртуальная реальность</a>
+							</li>
+							<li>
+								<a href="#" class="monopods-for-selfie">Моноподы для селфи</a>
+							</li>
+							<li>
+								<a href="#" class="action-cams">Экшн-камеры</a>
+							</li>
+							<li>
+								<a href="#" class="fitness-bracelets">Фитнес-браслеты</a>
+							</li>
+							<li>
+								<a href="#" class="smart-watchs">Умные часы</a>
+							</li>
+							<li>
+								<a href="#" class="quadrupters">Квадрокоптеры</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="delivery">Доставка</a>
+					</li>
+					<li>
+						<a href="#" class="guarantee">Гарантия</a>
+					</li>
+					<li>
+						<a href="#" class="pay">Оплата</a>
+					</li>
+				</ul>
 		</nav>
 	</header>
 	<main>
 		<article class="slide-menu">	
-			<section class="slide-one">
-				<h1 class="Slide-number">
-					01
-				</h1>
+			<div class="slide-one">
 				<img src="..img/slideoneimage" alt="Номер слайда">
 				<div class="slide-main">
 					<img src="..img/slideimage-1" alt="Картинка первого слайда">
@@ -75,7 +72,7 @@
 						<h2>Делай селфи, как Бен Стиллер</h2>
 						<p>Самая длинная палка для селфи доступна в нашем магазине.<br>
 						Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-						<span class="more-info">Подробнее</span>
+						<a href="#" class="more-info">Подробнее</a href="#">
 						<span>Slide mover 1(checked)</span><span>Slide mover 2</span><span>Slide mover 3</span>
 						<table>
 							<tr><td>8,5 м</td><td>5 кг</td><td>Карбон</td></tr>
@@ -83,19 +80,16 @@
 						</table>
 					</div>
 				</div>
-			</section>
+			</div>
 			
-			<section class="slide-two">
-				<h1 class="Slide-number">
-					02
-				</h1>
+			<div class="slide-two">
 				<img src="..img/slidetwoimage" alt="Номер слайда">
 				<div class="slide-main">
 					<img src="..img/slideimage-2" alt="Картинка второго слайда">
 					<div class="info-on-slide">
 						<h2>Худеем правильно!</h2>
 						<p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-						<span class="more-info">Подробнее</span>
+						<a href="#" class="more-info">Подробнее</a >
 						<span>Slide mover 1</span><span>Slide mover 2 (checked)</span><span>Slide mover 3</span>
 						<table>
 							<tr><td>48 часов</td></tr>
@@ -103,19 +97,16 @@
 						</table>
 					</div>
 				</div>
-			</section>
+			</div>
 			
-			<section class="slide-three">
-				<h1 class="Slide-number">
-					03
-				</h1>
+			<div class="slide-three">
 				<img src="..img/slidethreeimage" alt="Номер слайда">
 				<div class="slide-main">
 					<img src="..img/slideimage-3" alt="Картинка третьего слайда">
 					<div class="info-on-slide">
 						<h2>Порхает как бабочка, жалит как пчела!</h2>
 						<p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-						<span class="more-info">Подробнее</span>
+						<a href="#" class="more-info">Подробнее</a>
 						<span>Slide mover 1</span><span>Slide mover 2</span><span>Slide mover 3 (checked)</span>
 						<table>
 							<tr><td>800 м</td><td>50 м</td></tr>
@@ -123,31 +114,43 @@
 						</table>
 					</div>
 				</div>
-			</section>		
+			</div>		
 		</article>
 		<section class="catalog">
 			<a href="#" class="catalog-blocks block-1">
-				<img src="http://placehold.it/150x100" alt="Картинка раздела">
+				<object type="image/svg+xml" data="picture.svg">
+				 	<img src="picture1.png">
+				</object>
 				<p>Виртуальная реальность</p>
 			</a>
 			<a href="#" class="catalog-blocks block-2">
-				<img src="http://placehold.it/150x100" alt="Картинка раздела">
+				<object type="image/svg+xml" data="picture.svg">
+				 	<img src="picture2.png">
+				</object>
 				<p>Моноподы для селфи</p>
 			</a>
 			<a href="#" class="catalog-blocks block-3">
-				<img src="http://placehold.it/150x100" alt="Картинка раздела">
+				<object type="image/svg+xml" data="picture.svg">
+				 	<img src="picture3.png">
+				</object>
 				<p>Экшн-камеры</p>
 			</a>
 			<a href="#" class="catalog-blocks block-4">
-				<img src="http://placehold.it/150x100" alt="Картинка раздела">
+				<object type="image/svg+xml" data="picture.svg">
+				 	<img src="picture4.png">
+				</object>
 				<p>Фитнес-браслеты</p>
 			</a>
 			<a href="#" class="catalog-blocks block-5">
-				<img src="http://placehold.it/150x100" alt="Картинка раздела">
+				<object type="image/svg+xml" data="picture.svg">
+				 	<img src="picture5.png">
+				</object>
 				<p>Умные часы</p>
 			</a>
 			<a href="#" class="catalog-blocks block-6">
-				<img src="http://placehold.it/150x100" alt="Картинка раздела">
+				<object type="image/svg+xml" data="picture.svg">
+				 	<img src="picture6.png">
+				</object>
 				<p>Квадрокоптеры</p>
 			</a>
 		</section>
@@ -160,17 +163,14 @@
 			<div class="services-info delivery-service">
 				<h2>Доставка</h2>
 				<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, понимая его на ваш этаж</p>
-				<img src="http://placehold.it/150x100" alt="Логотип доставки">
 			</div>
 			<div class="services-info garantee-service">
 				<h2>Гарантия</h2>
 				<p>Если из-за возгорания купленного у нас товара у вас сгорит дом - не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-				<img src="http://placehold.it/150x100" alt="Логотип гарантии">
 			</div>
 			<div class="services-info credit-services">
 				<h2>Кредит</h2>
 				<p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
-				<img src="http://placehold.it/150x100" alt="Логотип кредита">
 			</div>
 		</section>
 		<section class="partners">
@@ -181,8 +181,8 @@
 				<li><a href="#"><img src="http://placehold.it/150x100" alt="Логотип компании vive"></a></li>
 			</ul>
 		</section>
-		<article class="about-us">
-			<h1>О нас</h1>
+		<section class="about-us">
+			<h2>О нас</h2>
 			<p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
 			<p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со много транспортными компаниями</p>
 			<ul class="courier-companies">
@@ -191,19 +191,19 @@
 				<li>ЖелДорЭкспедиция</li>
 			</ul>
 			<a href="#">Подробнее о нас</a>
-		</article>
-		<article class="contacts">
-			<h1>Контанты</h1>
+		</section>
+		<section class="contacts">
+			<h2>Контанты</h2>
 			<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, мы сможете проверить работоспособность покупки. Всякое бывает</p>
 			<a href="#"><span class="map">***MAP***</span></a>
 			<a href="#">Напишите нам</a>
-		</article>
+		</section>
 	</main>
 	<footer>
 		<a class="main-footer-logo">
 			DEVICE
 		</a>
-		<nav class="footer-navigation-first">
+		<div class="footer-navigation-first">
 			<ul>
 				<li>
 					<a class="enter">Войти</a>
@@ -215,11 +215,11 @@
 					<a class="shopping-cart">Корзина</a>
 				</li>
 			</ul>
-		</nav>
+		</div>
 		<p class="address">
 			г.Москва, ул. Строителей, 15
 		</p>
-		<nav class="footer-navigation-second">
+		<div class="footer-navigation-second">
 			<ul>
 				<li>
 					<a class="delivery">Доставка</a>
@@ -231,7 +231,7 @@
 					<a class="pay">Оплата</a>
 				</li>
 			</ul>
-		</nav>
+		</div>
 		<p class="phone-number">
 			Тел.: +7 (495) 495-95-95
 		</p>
