@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 	<header class="main-header">
@@ -213,7 +214,7 @@
 		<section class="contacts">
 			<h2>Контанты</h2>
 			<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, мы сможете проверить работоспособность покупки. Всякое бывает</p>
-			<a href="#"><span class="map">***MAP***</span></a>
+			<a href="#"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ab8d3a12f1d5692ce66effc9c63a19b41d6f298c5c42daea673da0223239e97e9&amp;width=558&amp;height=222&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
 			<a href="#">Напишите нам</a>
 		</section>
 	</main>
@@ -235,7 +236,7 @@
 			</ul>
 		</div>
 		<p class="address">
-			г.Москва, ул. Строителей, 15
+			г.Москва, ул. Строителей, 9A
 		</p>
 		<div class="footer-navigation-second">
 			<ul>
@@ -265,5 +266,28 @@
 			</li>
 		</ul>
 	</footer>
+	<section class="popups">
+		<div class="write-us-popup">
+			<form>
+				<button class="popup-close" type="button">Закрыть</button>
+				<label class="w-u-name">
+					Ваше имя:
+					<input type="text" name="yourname" placeholder="Имя">
+				</label>
+				<label class="w-u-email">
+					Ваш e-mail:
+					<input type="text" name="youremail" placeholder="your_email@something.com">
+				</label>
+				<label class="w-u-text">
+					Текст письма:
+					<input type="textarea" name="yourtext" placeholder="Задайте ваш вопрос...">
+				</label>
+				<input type="submit" name="sendform" value="Отправить">
+			</form>
+		</div>
+		<div class="map-popup">
+    		<button class="popup-close" type="button">Закрыть</button>
+  		</div>
+	</section>
   </body>
 </html>
