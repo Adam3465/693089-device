@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-ExtraBold.eot');
+	src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+		url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('Gilroy-ExtraBold.woff') format('woff'),
+		url('Gilroy-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-Light.eot');
+	src: local('Gilroy Light'), local('Gilroy-Light'),
+		url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+		url('Gilroy-Light.woff') format('woff'),
+		url('Gilroy-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+
+}
+footer {
+	background-color: #464646;
+}
+.main-header-logo {
+	font-size: 48px;
+	font-weight: 800;
+}
+
+.user-bar {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300px;
+}
+.main {
+	font-size: 18px;
+	font-weight: 800;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.inner-catalog {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.butt {
+	font-weight: 800;
+	font-size: 18px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.info-table td {
+	font-weight: 300;
+	font-size: 36px;
+}
+.info-table th {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+}
+.catalog-blocks {
+	font-size: 18px;
+	font-weight: 800;
+}
+.services-info h2 {
+	font-size: 47px;
+	font-weight: 800;
+}
+.services-info p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+.inf h2 {
+	font-weight: 800;
+	font-size: 47px;
+}
+.inf p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+.courier-companies {
+	font-size: 16px;
+	font-family: 'Gilroy';
+	font-weight: 800;
+}
+.main-footer-logo {
+	color: #ffc600;
+	font-weight: 800;
+	font-size: 48px;
+}
+.footer-navigation-first {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+}
+footer a {
+	color: #ffffff;
+}
+footer p {
+	color: #ffffff;
+}
+
+.cord {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+.footer-navigation-second a {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 4px;
+}

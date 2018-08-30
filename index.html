@@ -30,8 +30,8 @@
 			</ul>
 			<nav class="main-navigation">
 				<ul class="m-n">
-					<li> <a class="catalog">Каталог товаров</a>
-						<ul>
+					<li> <a href="#" class="main cc">Каталог товаров</a>
+						<ul class="inner-catalog">
 							<li> 
 								<a href="#" class="virtual-reality">Виртуальная реальность</a>
 							</li>
@@ -53,13 +53,13 @@
 						</ul>
 					</li>
 					<li>
-						<a href="#" class="delivery">Доставка</a>
+						<a href="#" class="main delivery">Доставка</a>
 					</li>
 					<li>
-						<a href="#" class="guarantee">Гарантия</a>
+						<a href="#" class="main guarantee">Гарантия</a>
 					</li>
 					<li>
-						<a href="#" class="pay">Оплата</a>
+						<a href="#" class="main cont">Контакты</a>
 					</li>
 				</ul>
 		</nav>
@@ -67,7 +67,7 @@
 	<main>
 		<article class="slide-menu">	
 			<div class="slide-one">
-				<img src="..img/slideoneimage" alt="Номер слайда">
+				<p class="slide-number">01</p>
 				<div class="slide-main">
 					<img src="img/slider-1.png" alt="Картинка первого слайда">
 					<div class="info-on-slide">
@@ -76,16 +76,16 @@
 						Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
 						<a href="#" class="more-info">Подробнее</a href="#">
 						<span>Slide mover 1(checked)</span><span>Slide mover 2</span><span>Slide mover 3</span>
-						<table>
+						<table class="info-table">
 							<tr><td>8,5 м</td><td>5 кг</td><td>Карбон</td></tr>
-							<tr><td>Длина палки</td><td>Вес палки</td><td>Материал</td></tr>
+							<tr><th>Длина палки</th><th>Вес палки</th><th>Материал</th></tr>
 						</table>
 					</div>
 				</div>
 			</div>
 			
 			<div class="slide-two">
-				<img src="..img/slidetwoimage" alt="Номер слайда">
+				<p class="slide-number">02</p>
 				<div class="slide-main">
 					<img src="img/slider-2.png" alt="Картинка второго слайда">
 					<div class="info-on-slide">
@@ -93,26 +93,26 @@
 						<p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
 						<a href="#" class="more-info">Подробнее</a >
 						<span>Slide mover 1</span><span>Slide mover 2 (checked)</span><span>Slide mover 3</span>
-						<table>
+						<table class="info-table">
 							<tr><td>48 часов</td></tr>
-							<tr><td>Без подзарядки</td></tr>
+							<tr><th>Без подзарядки</th></tr>
 						</table>
 					</div>
 				</div>
 			</div>
 			
 			<div class="slide-three">
-				<img src="..img/slidethreeimage" alt="Номер слайда">
+				<p class="slide-number">03</p>
 				<div class="slide-main">
 					<img src="img/slider-3.png" alt="Картинка третьего слайда">
 					<div class="info-on-slide">
 						<h2>Порхает как бабочка, жалит как пчела!</h2>
 						<p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-						<a href="#" class="more-info">Подробнее</a>
+						<a href="#" class="more-info butt">Подробнее</a>
 						<span>Slide mover 1</span><span>Slide mover 2</span><span>Slide mover 3 (checked)</span>
-						<table>
+						<table class="info-table">
 							<tr><td>800 м</td><td>50 м</td></tr>
-							<tr><td>Дальность полета</td><td>Радиус поражения</td></tr>
+							<tr><th>Дальность полета</th><th>Радиус поражения</th></tr>
 						</table>
 					</div>
 				</div>
@@ -125,7 +125,7 @@
 						<object type="image/svg+xml" data="picture.svg">
 						 	<img src="picture1.png">
 						</object>
-						<p>Виртуальная реальность</p>
+						<p>Виртуальная<br>реальность</p>
 					</a>
 				</li>
 				<li>
@@ -133,7 +133,7 @@
 						<object type="image/svg+xml" data="picture.svg">
 						 	<img src="picture2.png">
 						</object>
-						<p>Моноподы для селфи</p>
+						<p>Моноподы<br>для селфи</p>
 					</a>
 				</li>
 				<li>
@@ -171,7 +171,7 @@
 			</ul>
 		</section>
 		<section class="services">
-			<ul class="services-buttons">
+			<ul class="services-buttons butt">
 				<li>Доставка</li>
 				<li>Гарантия</li>
 				<li>Кредит</li>
@@ -201,7 +201,7 @@
 				<li><a href="#"><img src="img/logo-4-dc.jpg" alt="Логотип компании vive без цвета"></a></li>
 			</ul>
 		</section>
-		<section class="about-us">
+		<section class="inf about-us">
 			<h2>О нас</h2>
 			<p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
 			<p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со много транспортными компаниями</p>
@@ -210,13 +210,13 @@
 				<li>Автотрейдинг</li>				
 				<li>ЖелДорЭкспедиция</li>
 			</ul>
-			<a href="#">Подробнее о нас</a>
+			<a href="#" class="about-us-b butt">Подробнее о нас</a>
 		</section>
-		<section class="contacts">
+		<section class="inf contacts">
 			<h2>Контанты</h2>
 			<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, мы сможете проверить работоспособность покупки. Всякое бывает</p>
-			<a href="#"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ab8d3a12f1d5692ce66effc9c63a19b41d6f298c5c42daea673da0223239e97e9&amp;width=558&amp;height=222&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
-			<a href="#">Напишите нам</a>
+			<a href="#"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ab8d3a12f1d5692ce66effc9c63a19b41d6f298c5c42daea673da0223239e97e9&amp;width=558&amp;height=222&amp;lang=ru_RU" alt="" style="border: 0;" /></a><br>
+			<a href="#" class="butt write-us">Напишите нам</a>
 		</section>
 	</main>
 	<footer>
@@ -224,7 +224,7 @@
 			DEVICE
 		</a>
 		<div class="footer-navigation-first">
-			<ul>
+			<ul class="f-c-s">
 				<li>
 					<a href="#" class="enter">Войти</a>
 				</li>
@@ -236,7 +236,7 @@
 				</li>
 			</ul>
 		</div>
-		<p class="address">
+		<p class="address cord">
 			г.Москва, ул. Строителей, 9A
 		</p>
 		<div class="footer-navigation-second">
@@ -252,7 +252,7 @@
 				</li>
 			</ul>
 		</div>
-		<p class="phone-number">
+		<p class="phone-number cord">
 			Тел.: +7 (495) 495-95-95
 		</p>
 		<ul class="contact-us">
