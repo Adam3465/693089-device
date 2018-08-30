@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @font-face {
@@ -188,4 +193,8 @@ footer p {
 }
 .level-2, .level-3 {
 	color: #a4a4a4;
+}
+
+.popups {
+	display: none;
 }
