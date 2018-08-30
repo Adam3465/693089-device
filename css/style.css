@@ -36,6 +36,13 @@ a {
 footer {
 	background-color: #464646;
 }
+p {
+	display: block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 .main-header-logo {
 	font-size: 48px;
 	font-weight: 800;
@@ -128,4 +135,57 @@ footer p {
 	text-transform: uppercase;
 	font-size: 18px;
 	letter-spacing: 4px;
+}
+.section-name-container h1 {
+	font-weight: 800;
+	font-size: 47px;
+}
+.way a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #cacaca;
+}
+.shop-wr h2 {
+	font-size: 16px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.fil a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #cacaca;
+}
+.fil .fil-check {
+	color: black;
+}
+.filter h3 {
+	font-weight: 800;
+	font-size: 18px;
+}
+.filter label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.product .pr-name {
+	font-weight: 800;
+	font-size: 18px;
+}
+.product .comparison {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #777777;
+}
+.product p {
+	font-weight: 300;
+	font-size: 16px;
+}
+.list-level {
+	font-weight: 800;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+.level-2, .level-3 {
+	color: #a4a4a4;
 }
