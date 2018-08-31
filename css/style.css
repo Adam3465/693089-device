@@ -1,32 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-   }
-
+/* Подключаем шрифты */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @font-face {
-	font-family: 'Gilroy';
-	src: url('Gilroy-ExtraBold.eot');
-	src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
-		url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
-		url('Gilroy-ExtraBold.woff') format('woff'),
-		url('Gilroy-ExtraBold.ttf') format('truetype');
-	font-weight: 800;
-	font-style: normal;
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroylight.woff2') format('woff2'),
+       url('../fonts/gilroylight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Gilroy';
-	src: url('Gilroy-Light.eot');
-	src: local('Gilroy Light'), local('Gilroy-Light'),
-		url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
-		url('Gilroy-Light.woff') format('woff'),
-		url('Gilroy-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
+       url('../fonts/gilroyextrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
 }
-
+/* Глобальные настройки  */
 body {
     margin: 0;
     padding: 0;
@@ -36,27 +26,91 @@ body {
 a {
 	text-decoration: none;
 	color: #000000;
-
+}
+li {
+	list-style-type: none;
 }
 footer {
 	background-color: #464646;
 }
-p {
-	display: block;
-    -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+header {
+	background-color: #f7e296;
 }
+
+/* Стилизация логотипа */
 .main-header-logo {
 	font-size: 48px;
 	font-weight: 800;
+	line-height: 36px;
 }
+.main-header-logo:hover {
+	opacity: 0.6;
+}
+.main-header-logo:active {
+	opacity: 0.3;
+}
+/* Стилизация поисковой строки */
+.search-bar {
+	width: 445px;
+	background-color: #f7e296;
+	height: 52px;
+}
+.search-bar .search-bar-in1 {
+	border: none;
+	background-color: #f7e296;
+	opacity: 0.3;
+	width: 355px;
+	height: 50px;
+	-webkit-appearance: none;
+}
+.search-bar .search-bar-in1:hover {
+	opacity: 0.6;
+}
+.search-bar .search-bar-in1:focus {
+	opacity: 1;
+	border-color: black;
+	outline: none;
+}
+.search-bar .search-bar-in2 {
+	width: 85px;
+	height: 50px;
+	background-color: #f7e296;
+	border-color: black;
+	border: 2px;
+	padding: 0px;
+}
+.search-bar .search-bar-in2:hover {
+	background-color: black;
+	color: white;
+}
+.search-bar .search-bar-in2:active {
+	background-color: black;
+	color: white;
+	opacity: 0.3;
+}
+/* Стилизация header */
 
 .user-bar {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 300px;
+	line-height: 30px;
+}
+.user-bar a:hover {
+	opacity: 0.6;
+}
+.user-bar a:active {
+	opacity: 0.3;
+}
+.m-n li a:hover {
+	opacity: 0.6;
+}
+.m-n li a:active {
+	opacity: 0.3;
+}
+.main-navigation {
+	line-height: 30px;
+	list-style-type: none;
 }
 .main {
 	font-size: 18px;
@@ -68,15 +122,44 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
+	line-height: 36px;
 }
-
+.slide-number {
+	font-weight: 800;
+	font-size: 179.2px;
+	padding: 0px;
+	margin: 0px;
+}
+.catalog-list p:active {
+	opacity: 0.3;
+}
+/* Общая стилизация кнопок */
 .butt {
 	font-weight: 800;
 	font-size: 18px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
+	line-height: 36px;
+	background-color: #f0c52e;
 }
-
+.butt:active {
+	opacity: 0.3;
+}
+.setting-sec {
+	display: block;
+	width: 160px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.setting-sec:active {
+	background-color: black;
+	color: #f0c52e;
+	opacity: 1;
+	cursor: pointer;
+}
+/* Стилизация main */
 .info-table td {
 	font-weight: 300;
 	font-size: 36px;
@@ -113,33 +196,61 @@ p {
 	font-family: 'Gilroy';
 	font-weight: 800;
 }
+/* Стилизация footer */
 .main-footer-logo {
 	color: #ffc600;
 	font-weight: 800;
 	font-size: 48px;
 }
-.footer-navigation-first {
+.main-footer-logo:hover {
+	opacity: 0.6;
+}
+.main-footer-logo:active {
+	opacity: 0.3;
+}
+.footer-navigation-first a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
+	line-height: 36px;
+	color: white;
+	opacity: 0.7;
 }
-footer a {
-	color: #ffffff;
+.footer-navigation-first a:hover {
+	opacity: 1;
 }
-footer p {
-	color: #ffffff;
+.footer-navigation-first a:active {
+	opacity: 0.3;
 }
 
 .cord {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
+	line-height: 30px;
+	color: white;
 }
 .footer-navigation-second a {
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 18px;
 	letter-spacing: 4px;
+	line-height: 30px;
+	color: white;
+}
+.footer-navigation-second a:hover {
+	opacity: 0.6;
+}
+.footer-navigation-second a:active {
+	opacity: 0.3;
+}
+/* Стилизация попапов */
+.popups {
+	display: none;
+}
+/* Стилизация catalog.html */
+.re-enter {
+	opacity: 0.3;
 }
 .section-name-container h1 {
 	font-weight: 800;
@@ -149,7 +260,14 @@ footer p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	color: #cacaca;
+	color: #000000;
+	opacity: 0.3
+}
+.way a:hover {
+	opacity: 0.6;
+}
+.way a:active {
+	opacity: 0.1;
 }
 .shop-wr h2 {
 	font-size: 16px;
@@ -160,10 +278,18 @@ footer p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
-	color: #cacaca;
+	color: #000000;
+	opacity: 0.3;
+}
+.fil a:hover {
+	opacity: 0.6;
+}
+.fil a:active {
+	opacity: 1;
 }
 .fil .fil-check {
 	color: black;
+	opacity: 1;
 }
 .filter h3 {
 	font-weight: 800;
@@ -180,21 +306,47 @@ footer p {
 .product .comparison {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
-	color: #777777;
+	color: #000000;
+	opacity: 0.6;
+}
+.product .comparison:hover {
+	opacity: 1;
+}
+.product .comparison:active {
+	opacity: 0.3;
 }
 .product p {
 	font-weight: 300;
 	font-size: 16px;
 }
+.contact-us {
+	margin-bottom: 0px;
+}
+/* Стилизация переключателя страниц */
 .list-level {
 	font-weight: 800;
 	font-size: 16px;
 	letter-spacing: 4px;
+	line-height: 30px;
+	background-color: #ebebeb;
 }
 .level-2, .level-3 {
-	color: #a4a4a4;
+	opacity: 0.6;
+	color: black;
 }
-
-.popups {
-	display: none;
+.list-level. .level-1 {
+	opacity: 1;
+}
+.level-2:hover {
+	opacity: 0.93;
+}
+.level-3:hover {
+	opacity: 0.93;
+}
+.swish:hover {
+	background-color: #d9d9d9;
+}
+.swish:active {
+	background-color: #d9d9d9;
+	opacity: 0.6;
 }
