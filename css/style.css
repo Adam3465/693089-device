@@ -3,16 +3,16 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/gilroylight.woff2') format('woff2'),
-       url('../fonts/gilroylight.woff') format('woff');
+  src: url('../project-fonts/gilroylight.woff2') format('woff2'),
+       url('../project-fonts/gilroylight.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
-       url('../fonts/gilroyextrabold.woff') format('woff');
+  src: url('../project-fonts/gilroyextrabold.woff2') format('woff2'),
+       url('../project-fonts/gilroyextrabold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
@@ -140,6 +140,9 @@ header {
 	letter-spacing: 4px;
 	text-transform: uppercase;
 	line-height: 36px;
+	background-color: #ffffff;
+}
+.butt:hover {
 	background-color: #f0c52e;
 }
 .butt:active {
@@ -245,8 +248,20 @@ header {
 	opacity: 0.3;
 }
 /* Стилизация попапов */
-.popups {
-	display: none;
+.setname {
+	font-size: 18px;
+	font-weight: 800;
+}
+.fiel {
+	background-color: #f2f2f2;
+	border: none;
+}
+.send-form {
+	border: none;
+	background-color: white;
+}
+.send-form:hover {
+	background-color: #f0c52e;
 }
 /* Стилизация catalog.html */
 .re-enter {
