@@ -199,6 +199,9 @@ header {
 	font-family: 'Gilroy';
 	font-weight: 800;
 }
+.info-on-slide h2 {
+	font-size: 47px;
+}
 /* Стилизация footer */
 .main-footer-logo {
 	color: #ffc600;
