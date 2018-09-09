@@ -281,7 +281,7 @@ fieldset {
 }
 .setting-sec {
 	line-height: 30px;
-	margin-bottom: 33px;
+	margin-bottom: 35px;
 	cursor: pointer;
 	width: 160px;
 }
@@ -971,7 +971,7 @@ fieldset {
 .q1::after {
 	content: "";
 	position: absolute;
-	top: 7px;
+	top: 10px;
 	left: 0px;
 	width: 160px;
 	height: 8px;
@@ -984,7 +984,7 @@ fieldset {
 .q2::after {
 	content: "";
 	position: absolute;
-	top: 7px;
+	top: 10px;
 	left: -4px;
 	width: 160px;
 	height: 8px;
@@ -997,7 +997,7 @@ fieldset {
 .q3::after {
 	content: "";
 	position: absolute;
-	top: 7px;
+	top: 10px;
 	left: -16px;
 	width: 160px;
 	height: 8px;
@@ -1009,15 +1009,15 @@ fieldset {
 }
 .q1:hover::after {
 	height: 30px;
-	top: -4px;
+	top: -1px;
 }
 .q2:hover::after {
 	height: 30px;
-	top: -4px;
+	top: -1px;
 }
 .q3:hover::after {
 	height: 30px;
-	top: -4px;
+	top: -1px;
 }
 .q1:active::after {
 	display: none;
