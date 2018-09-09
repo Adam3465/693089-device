@@ -1513,7 +1513,7 @@ fieldset {
 	-o-transition: opacity 0.1s;
 	transition: opacity 0.1s;
 }
-.list-level. .level-1 {
+.list-level, .level-1 {
 	opacity: 1;
 	-webkit-transition: opacity 0.1s;
 	-o-transition: opacity 0.1s;

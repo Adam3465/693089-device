@@ -87,7 +87,7 @@
 						<h2>Делай селфи,<br> как Бен Стиллер!</h2>
 						<p class="slide-text">Самая длинная палка для селфи доступна в нашем магазине.<br>
 						Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-						<a href="#" class="more-info butt"><span class="test">Подробнее</span></a href="#">
+						<a href="#" class="more-info butt"><span class="test">Подробнее</span></a>
 						
 						<table class="info-table">
 							<tr><td class="table-cell">8,5 м</td><td class="table-cell">5 кг</td><td class="table-cell">Карбон</td></tr>
@@ -263,7 +263,7 @@
 					<li class="setting-sec qq3"><label for="credit-service" class="butt-lab q3">Кредит</label></li>
 				</ul>
 				<div class="s-i-b">
-					<div class="services-info delivery-service">
+					<div class="services-info delivery-service" id="delivery-service">
 						<div class="cont-text">
 							<h2>Доставка</h2>
 							<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, понимая его на ваш этаж</p>
@@ -277,13 +277,13 @@
 							<path fill="#F0C52E" d="M59.042 8.982a2 2 0 0 1-2 1.99H19.015c-1.1 0-2-.896-2-1.99 0-1.094.9-1.99 2-1.99h38.027c1.1.001 2 .896 2 1.99zM57.004 18.98c0 1.094-.9 1.99-2 1.99h-22.96c-1.1 0-2-.896-2-1.99a2 2 0 0 1 2-1.99h22.959c1.101 0 2.001.896 2.001 1.99z"/>
 						</svg>
 					</div>
-					<div class="services-info guarantee-service">
+					<div class="services-info guarantee-service" id="guarantee-service">
 						<div class="cont-text">
 							<h2>Гарантия</h2>
 							<p>Если из-за возгорания купленного у нас товара у вас сгорит дом - не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
 						</div>
 					</div>
-					<div class="services-info credit-service">
+					<div class="services-info credit-service" id="credit-service">
 						<div class="cont-text">
 							<h2>Кредит</h2>
 							<p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
@@ -408,7 +408,7 @@
 				</label>
 				<label class="w-u-text setname">
 					Текст письма:
-					<input type="textarea" name="yourtext" placeholder="Задайте ваш вопрос..." class="fiel textfield">
+					<textarea name="yourtext" placeholder="Задайте ваш вопрос..." class="fiel textfield"></textarea> 
 				</label>
 				<input type="submit" name="sendform" value="Отправить" class="send-form butt">
 			</form>
